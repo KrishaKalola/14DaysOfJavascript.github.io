@@ -18,8 +18,8 @@ body{
     height: 100vh;
 }
 .clockI{
-    width: 25rem;
-    height: 25rem;
+    width: 22rem;
+    height: 22rem;
     background: rgba(255,255,255,0.25);
     box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
     backdrop-filter: blur(4px);
