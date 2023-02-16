@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+}
+
+.beforeNav {
+    background: url(./1g.jpg) no-repeat center center/cover;
+    height: 30vh;
+    width: 100vw;
+}
+
+
+nav {
+    position: sticky;
+    background-color:  black;
+    color: white;
+    padding: 3vh 0vw;
+    border-radius: 0.1rem;
+    top: 0;
+    transition: all 0.4s;
+}
+.line{
+    height: 3vh;
+    width: 100%;
+    background-color: white;
+}
+
+.fixed nav {
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+nav li {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 1.9rem;
+    letter-spacing: 0.25rem;
+}
+
+.afterNav {
+    background-image: url(./1g.jpg);
+    background-size: cover;
+    background-position: fixed;
+    color: black;
+    padding: 10vh 18vw;
+}
+
+.afterNav h1 {
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    margin: 0px 0px 10vh 0px;
+}
+
+.afterNav #para1 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.afterNav #para2 {
+    margin: 7vh 0 0 0;
+    text-align: start;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.afterNav #para3 {
+    margin: 7vh 0 0 0;
+    text-align: start;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
