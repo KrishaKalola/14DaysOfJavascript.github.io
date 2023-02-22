@@ -37,7 +37,7 @@ body{
 
 .input{
     height: 53px;
-    width: 250px;
+    width: 90%;
     background-color: rgba(255,255,255, .6);
     border-color: rgba(255,255,255, .4);
     font-size: 16px;
